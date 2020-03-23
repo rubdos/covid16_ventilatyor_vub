@@ -2,3 +2,6 @@
 *.o
 
 suite
+
+*.gcno
+*.gcda

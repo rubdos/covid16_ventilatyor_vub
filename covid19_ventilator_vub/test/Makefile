@@ -21,6 +21,10 @@ LDFLAGS:=-lgtest
 
 .PHONY: test clean
 
+all: suite
+	@echo "Everything built."
+	@echo "Run \`make test' to run the tests."
+
 test: suite
 	./suite
 
