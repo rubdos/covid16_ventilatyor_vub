@@ -7,7 +7,7 @@
 #pragma once
 #include "covid19_ventilator.h"
 #include "LiquidCrystal_I2C.h"
-#include "Pins.h"
+#include "pins.h"
 #define NUMBUTTONS 12
 
 class UserInterface {
